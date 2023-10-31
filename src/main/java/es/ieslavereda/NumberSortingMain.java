@@ -17,6 +17,7 @@ public class NumberSortingMain {
 
             fill(array);
 
+            //mostrar(array);
             start = System.currentTimeMillis();
 
             //Selection.sort(array);
@@ -24,11 +25,12 @@ public class NumberSortingMain {
             //Insertion.sort(array);
 
             end = System.currentTimeMillis();
+            //mostrar(array);
 
             System.out.println("Para " + size + " -> " + (end-start) + " milisegundos.");
 
         }
-        //mostrar(array);
+
 
     }
 }
